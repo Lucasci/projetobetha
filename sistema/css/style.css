@@ -1,0 +1,394 @@
+.primary-div{
+	margin-top: 100px;
+}
+.second-div{
+	margin-top: 50px;
+}
+.textgreen{
+	background-color: green!important;
+	padding: 2px 5px;
+	border-radius: 2px;
+	color: #fff;
+	font-size: 11px;
+	font-weight: normal;
+}
+.text-red{
+	background-color: red;
+	padding: 2px 5px;
+	border-radius: 2px;
+	color: #fff;
+	font-size: 11px;
+	font-weight: normal;
+}
+.panel{
+	border-radius:0px;
+}
+p{
+	display: none;
+}
+.body-user{
+	background-color: #f5f5f5;
+}
+/*Secretaria da Fazenda*/
+.secretaria{
+	background-color: #f5f5f5;	
+}
+.secretaria .menu{
+	background-color: #fff;
+	-moz-box-shadow: 0px 0px 4px #414141;
+	-webkit-box-shadow: 0px 0px 4px #414141;
+	box-shadow: 0px 0px 4px #414141;
+}
+.secretaria .menu{
+	background-color: #fff;
+	-moz-box-shadow: 0px 0px 4px #414141;
+	-webkit-box-shadow: 0px 0px 4px #414141;
+	box-shadow: 0px 0px 4px #414141;
+}
+.secretaria .navbar-nav>li>a {
+	color: #999!important;
+	padding-left: 35px;
+}
+.secretaria .menu .navbar-nav>.active .icon-prefeitura{
+	background: url(../img/prefeitura-branco.png) 10px 16px no-repeat;
+}
+.secretaria .menu .navbar-nav>li>a.icon-prefeitura{
+	background: url(../img/prefeitura1.png) 10px 16px no-repeat!important;
+}
+.secretaria .menu .navbar-nav>li>a.icon-prefeitura:hover{
+	background: url(../img/prefeitura-branco.png) 10px 16px no-repeat!important;
+	background-color: #009688!important;
+}
+.secretaria .menu .navbar-nav>.active .icon-home{
+	background: url(../img/home-branco.png) 10px 16px no-repeat;
+}
+.secretaria .menu .navbar-nav>.icon-home{
+	background: url(../img/home1.png) 10px 16px no-repeat;
+}
+.secretaria .menu .navbar-nav>li>.icon-home:hover{
+	background: url(../img/home-branco.png) 10px 16px no-repeat;
+}
+.secretaria .menu .navbar-nav>li>a:hover {
+	background-color: #009688!important;
+	color: #fff!important;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	color: #fff!important;
+	background-color: rgba(6, 81, 197, 0.56);;
+}
+.secretaria .navbar-nav>.active>a:hover{
+	color: #999!important;
+	background-color: transparent!important;
+}
+.secretaria .navbar-nav>.active>a{
+	color: #fff!important;
+	background-color: #009688!important;
+}
+.secretaria table tr:hover{
+	cursor: pointer!important;
+}
+.secretaria table tbody tr .confirm-pago{
+	display: none;
+}
+.secretaria table tr:hover .confirm-pago{
+	display: block;
+	position: absolute;
+	top: 0;
+	padding: 15px;
+	text-align: center;
+	z-index: 1000;
+}
+.secretaria table thead tr .th_id{
+	width: 15%;
+}
+.secretaria table thead tr .th_nome{
+	width: 35%;
+}
+.secretaria table thead tr .th_valor{
+	width: 25%;
+}
+.secretaria table thead tr .th_pago{
+	width: 25%;
+}
+.logo-secretaria{
+	margin-top: -14px;
+}
+.total-arrecadado{
+	width: 90%;
+	border-radius: 5px;
+	background-color: #fff;
+	border-top: solid 3px #009688;
+	text-align: right;
+	padding: 10px 10px 10px;
+}
+.total-debitos{
+	width: 90%;
+	border-radius: 5px;
+	background-color: #fff;
+	border-top: solid 3px #ff5252;
+	text-align: right;
+	padding: 10px 10px 10px;
+}
+.total-meta{
+	width: 90%;
+	border-radius: 5px;
+	background-color: #fff;
+	border-top: solid 3px #1a90c6;
+	text-align: right;
+	padding: 10px 10px 10px;
+}
+.total-usuarios{
+	width: 90%;
+	border-radius: 5px;
+	background-color: #fff;
+	border-top: solid 3px #f2b53f;
+	text-align: right;
+	padding: 10px 10px 10px;
+}
+.titulo-valores{
+	color: #999;
+	font-size: 13px;
+	text-align: left;
+	display: block;
+}
+.valores-geral{
+	padding-top: 20px;
+	color: #999;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: left;
+	display: block;
+}
+.secretaria .panel-info {
+	border: 0px;
+}
+.secretaria .rodape{
+	background-color: #E0E0E0;
+	color: #777;
+	text-align: center;
+	line-height: 50px; 
+}
+/*Fim Secretaria da Fazenda*/
+.body-user .panel-info{
+	border:none;
+}
+.body-user .panel-body{
+	padding-top: 0px;
+}
+.body-user .table>thead>tr>th {
+	vertical-align: bottom;
+	border-bottom: 0px;
+}
+.body-user .table>tbody>tr {
+	line-height: 30px;
+}
+.body-user .table>tbody>tr>td {
+	vertical-align: 0!important;
+}
+.body-user .rodape{
+	background-color: #E0E0E0;
+	color: #777;
+	text-align: center;
+	line-height: 50px; 
+}
+.panel-info>.panel-heading {
+	color: #333;
+	background-color: #fff;
+	border-color: #bce8f1;
+}
+.box-login{
+	padding: 10px;
+	border-radius: 10px;
+	width: 450px;
+	margin: 10% auto;
+}
+.body-login{
+	background-color: #FAFAFA;
+}
+.body-login fieldset {
+	background: #ffffff;
+	border: 1px solid #e6e8e8;
+	border-radius: 5px;
+	margin: 20px 0 20px 0;
+	padding: 25px;
+	position: relative;
+}
+.body-login fieldset legend {
+	background: inherit;
+	font-family: "Lato", sans-serif;
+	color: #007AFF;
+	font-size: 15px;
+	left: 10px;
+	padding: 5px 10px;
+	position: absolute;
+	top: -17px;
+	font-weight: 400;
+	border-radius: 5px;
+	width: auto !important;
+	border: none !important;
+}
+.body-login .nav-tabs {
+	border:0px;
+	border-bottom: 1px solid #007AFF;
+}
+.body-login .nav-tabs>li>a{
+	border: 0px;
+	color: #ccc;
+}
+.body-login .nav-tabs>li>a:hover{
+	border: 0px;
+	color: #007AFF;
+	background-color: #fff;
+}
+.body-login .nav-tabs>li.active>a{
+	border: 0px;
+	background-color: #007AFF;
+	color: #fff;
+}
+.body-login .tab-content{
+	background-color: #fff;
+	padding: 20px 0px 0px;
+}
+.body-login .nav-tabs>li {
+	margin-bottom: 0px;
+}
+.body-login .btn-primary {
+	background-color: #007AFF;
+	border-color: #007AFF;
+	color: #ffffff;
+}
+.menu{
+	background-color: #399bff;
+  	border-color: transparent;
+}
+.menu .navbar-nav>li>a {
+	color: #fff;
+}
+.menu .navbar-nav>li>a:hover {
+	background-color: rgba(6, 81, 197, 0.56);
+	color: #fff;
+}
+.body-user .navbar-default .navbar-brand {
+	color: #FFF;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	color: #fff!important;
+	background-color: rgba(6, 81, 197, 0.56);
+}
+.menu .navbar-nav>.active>a:hover{
+	color: #fff;
+ 	background-color: rgba(6, 81, 197, 0.56);
+}
+.menu .navbar-nav>.active>a{
+	color: #fff;
+	background-color: rgba(6, 81, 197, 0.56);
+}
+.navbar-fixed-top {
+	top: 0;
+	border-width: 0 0 0px;
+}
+.body-user .navbar-default .navbar-toggle {
+	border-color: #00B2FF;
+	background-color: #fff;
+}
+.secretaria .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	color: #fff!important;
+	background-color: #009688!important;
+}
+.p_filter{
+	padding: 20px 10px;
+	background-color: #F9F9F9;
+}
+@media(max-width: 991px){
+	.total-arrecadado{
+		width: 100%;
+		border-radius: 5px;
+		background-color: #fff;
+		border-top: solid 3px #009688;
+		text-align: right;
+		padding: 10px 10px 10px;
+	}
+	.total-debitos{
+		width: 100%;
+		border-radius: 5px;
+		background-color: #fff;
+		border-top: solid 3px #ff5252;
+		text-align: right;
+		padding: 10px 10px 10px;
+	}
+	.total-meta{
+		width: 100%;
+		border-radius: 5px;
+		background-color: #fff;
+		border-top: solid 3px #1a90c6;
+		text-align: right;
+		padding: 10px 10px 10px;
+	}
+	.total-usuarios{
+		width: 100%;
+		border-radius: 5px;
+		background-color: #fff;
+		border-top: solid 3px #f2b53f;
+		text-align: right;
+		padding: 10px 10px 10px;
+	}
+}
+@media(max-width: 767px){
+	.tdh-cpf{
+		display: none;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+	  color: #fff;
+	  background-color: #4A8FE8;
+	  padding: 10px 20px;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+	  color: #fff;
+	  background-color: rgba(6, 81, 197, 0.56);
+	}
+	.secretaria .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+	  color: #fff;
+	  background-color: #03B5A4;
+	  padding: 10px 20px;
+	}
+	.secretaria .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+	  color: #fff;
+	  background-color: #009688;
+	  padding: 10px 20px;
+	}
+	.total-arrecadado{
+		width: 100%;
+		border-radius: 5px;
+		background-color: #fff;
+		border-top: solid 3px #009688;
+		text-align: right;
+		padding: 10px 10px 10px;
+		margin-bottom: 10px;
+	}
+	.total-debitos{
+		width: 100%;
+		border-radius: 5px;
+		background-color: #fff;
+		border-top: solid 3px #ff5252;
+		text-align: right;
+		padding: 10px 10px 10px;
+		margin-bottom: 10px;
+	}
+	.total-meta{
+		width: 100%;
+		border-radius: 5px;
+		background-color: #fff;
+		border-top: solid 3px #1a90c6;
+		text-align: right;
+		padding: 10px 10px 10px;
+		margin-bottom: 10px;
+	}
+	.total-usuarios{
+		width: 100%;
+		border-radius: 5px;
+		background-color: #fff;
+		border-top: solid 3px #f2b53f;
+		text-align: right;
+		padding: 10px 10px 10px;
+	}
+}

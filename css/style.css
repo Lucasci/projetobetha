@@ -1,0 +1,32 @@
+@import url(http://fonts.googleapis.com/css?family=Amaranth:400,400italic,700,700italic);
+header .span9{margin-top: 20px}
+h2 {font-size: 22px;}
+footer{background-color: #2c3e50;color: #bdc3c7;margin-top: 40px;}
+footer .navbar-inner {min-height: 40px;padding-right: 0px;padding-left: 0px;background-color: transparent;background-image: none;border: none;}
+footer .navbar .nav>li>a {float: none;padding: 10px 15px 10px;color: #bdc3c7;text-decoration: none;text-shadow: none;}
+footer .navbar .nav>.active>a,footer .navbar .nav>.active>a:hover,footer .navbar .nav>.active>a:focus {color: #bdc3c7;text-decoration: none;background-color: transparent;box-shadow: none;}
+footer .navbar .nav>li>a:hover {color: #fff;}
+footer .container-fluid {padding-right: 0px;padding-left: 0px;}
+footer .navbar{margin: 10px 0px}
+footer .span4 p{text-align: right;margin-top: 20px}
+.pg_navegacao{border-top: 1px solid #bdc3c7; border-bottom: 1px solid #bdc3c7;background-color: #eeeeee;margin: 10px 0px}
+.pg_navegacao p{color:#2c3e50;padding: 10px 0px 0px;text-align: right;font-style: italic;}
+.pg_navegacao p a{color:#2c3e50;font-weight: bold;}
+.musica{position: absolute;z-index: 1000;top:5px;right: 5px;}
+.home_pontos h1, .eventos h1, .pontos_turisticos h1, .localizacao h1, .servicos h1{font-family: 'Amaranth', sans-serif;font-weight: normal;}
+.home_pontos h1 strong, .eventos h1 strong, .pontos_turisticos h1 strong, .localizacao h1 strong, .servicos h1 strong{color: #6f0010}
+.home_pontos h2, .eventos h2, .pontos_turisticos h2, .servicos h2{font-family: 'Amaranth', sans-serif;font-weight: normal;}
+.home_pontos h2 strong, .pontos_turisticos h2 strong, .servicos h2 strong{color: #6f0010}
+.eventos .data_evento{font-family: 'Amaranth', sans-serif;font-weight: normal;margin: 20px 0px 0px;color: #6f0010;font-style: italic;font-size: 18px;}
+.eventos p{margin: 0px}
+.eventos h2{margin: 20px 0px 0px;line-height: 20px}
+.servicos_essenciais p{margin: 0px}
+.navbar .nav>li>a {float: none;padding: 10px 15px 10px;color: #5b9328;text-decoration: none;text-shadow: 0 1px 0 #fff;}
+.navbar .nav>.active>a{color: #5b9328}
+.navbar .nav>.active>a:hover{color: #5b9328}
+.navbar .nav>li>a:hover{color:#8cde42}
+.text-iptu {position: absolute;right: 0;top: 0;left: 0;padding: 15px;text-align: center;}
+.tit_iptu{font-family: 'Amaranth', sans-serif;font-weight: bold;text-align: center;font-size: 60px;color: #D80000;padding-top: 70px;}
+.desc_iptu{text-align: center;font-size: 16px;background-color: rgb(3, 34, 155);font-style: italic;padding: 10px 0px;color: #fff;width: 400px;margin: 0px auto;}
+.btn-iptu{padding: 8px 15px;color: #FFFFFF;font-family: 'Amaranth', sans-serif;font-weight: bold;width: 120px;border-radius: 20px;display: block;font-size: 20px;background-color: rgba(18, 142, 4, 1);margin: 21px auto;}
+.btn-iptu:hover{color: #FFFFFF;background-color: rgba(18, 142, 4, 0.5);text-decoration: none;}
